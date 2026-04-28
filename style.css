@@ -184,7 +184,7 @@ body {
 .visual-2 span {
   color: hsla(224, 30%, 27%, 0.463);
 }
-.button {
+.continue-btn {
   width: 270px;
   padding: 15px 10px;
   background-color: hsl(224, 30%, 27%);
@@ -192,4 +192,14 @@ body {
   border-radius: 30px;
   border: none;
   font-weight: 700;
+}
+.continue-btn:hover {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  cursor: pointer;
+}
+@media screen(max-width: 600px) {
 }
