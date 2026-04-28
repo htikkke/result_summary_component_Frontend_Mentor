@@ -201,5 +201,19 @@ body {
   );
   cursor: pointer;
 }
-@media screen(max-width: 600px) {
+@media screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+    height: auto;
+    padding: 0;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0 0 32px 32px;
+  }
+  .result-container {
+    border-radius: 0 0 32px 32px;
+  }
 }
